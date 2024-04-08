@@ -1,0 +1,103 @@
+/** @format */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  border: 2px solid red;
+}
+
+.main-hero {
+  background-image: url(./working.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  gap: 5px;
+}
+
+.main-hero > h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.main-hero > p {
+  font-size: 20px;
+  color: rgb(176, 173, 173);
+  font-weight: 400;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.form-input {
+  width: 400px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
+}
+.form-input label {
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+}
+.form-input input {
+  width: 300px;
+  border: none;
+  padding: 10px 10px 10px 0;
+  border-bottom: 1px solid gray;
+}
+.form-input textarea {
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.form-input input:placeholder {
+  color: gray;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.form-textarea {
+  align-items: flex-start;
+}
+
+.section-button {
+  color: #ffffff;
+  font-size: 15px;
+  background-color: green;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 25px;
+}/*# sourceMappingURL=style.css.map */
